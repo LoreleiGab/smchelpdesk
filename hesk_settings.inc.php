@@ -5,9 +5,9 @@
 
 // --> General settings
 $hesk_settings['site_title']='Sistema de Help Desk';
-$hesk_settings['site_url']='http://localhost:82';
+$hesk_settings['site_url']='http://localhost:82/smchelpdesk';
 $hesk_settings['hesk_title']='SMC - Sistema de Help Desk';
-$hesk_settings['hesk_url']='http://localhost:82/hesk';
+$hesk_settings['hesk_url']='http://localhost:82/smchelpdesk';
 $hesk_settings['webmaster_mail']='sistema.igsis@gmail.com';
 $hesk_settings['noreply_mail']='sistema.igsis@gmail.com';
 $hesk_settings['noreply_name']='Help Desk';
