@@ -1,5 +1,5 @@
 body {
-	background-color: #f3fef4;
+	background-color: #F0F8FF;
 	color: black;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -46,7 +46,7 @@ td.admin_white {
 }
 
 td.admin_gray {
-	background-color: #f5fffa;
+	background-color: #F0F8FF;
 	color : #4a5571;
 	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 11px;
@@ -279,7 +279,7 @@ color:#FFFFFF;
 
 .headersm {
 	width: 100%;
-	background-color: #669933;
+	background-color: #00BFFF;
 	color : #ffffff;
 	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -429,8 +429,8 @@ hr {
 	padding: 6px;
 }
 .ticketalt {
-	background-color: #ffffff;
-	color : #4a5571;
+	background-color: #C6E2FF;
+	color : #C6E2FF;
 	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	padding: 6px;
@@ -504,7 +504,7 @@ div.notice {
 }
 
 .admin_green {
-	background-color: #e3ffd0;
+	background-color: #F0F8FF;
 	font-weight: bold;
 }
 
@@ -639,7 +639,7 @@ div.progress-container > div {
 
 div.online {
 	border: 1px solid #e5e8ff; 
-	background: #ffffff; 
+	background: #C6E2FF; 
 	color: #000000;
 	padding: 0px;
 	vertical-align: middle;
@@ -691,7 +691,7 @@ span.online {
 }
 
 td.admin_yellow {
-	background-color: #ffffe0;
+	background-color: #C6E2FF;
 	color : #4a5571;
 	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 11px;

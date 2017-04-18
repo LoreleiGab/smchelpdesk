@@ -652,11 +652,6 @@ hesk_handle_messages();
                 <td width="1">&nbsp;</td>
                 <td><input type="submit" value="<?php echo $hesklang['view_ticket']; ?>" class="orangebutton" onmouseover="hesk_btn(this,'orangebuttonover');" onmouseout="hesk_btn(this,'orangebutton');" /><input type="hidden" name="Refresh" value="<?php echo rand(10000,99999); ?>"><input type="hidden" name="f" value="1"></td>
         </tr>
-        <tr>
-                <td width="1">&nbsp;</td>
-                <td>&nbsp;<br />&nbsp;<br /><a href="Javascript:void(0)" onclick="javascript:hesk_toggleLayerDisplay('forgot');<?php echo $tmp; ?>"><?php echo $hesklang['forgot_tid'];?></a>
-                </td>
-        </tr>
         </table>
 
         </form>

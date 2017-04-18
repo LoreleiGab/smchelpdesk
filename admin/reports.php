@@ -481,7 +481,7 @@ function hesk_ticketsByCategory()
 	$cls = '';
 	foreach ($tickets as $k => $d)
 	{
-		$cls = $cls ? '' : 'style="background:#EEEEE8;"';
+		$cls = $cls ? '' : 'style="background:#F0F8FF;"';
 
 	    ?>
 	      <tr <?php echo $cls; ?>>
@@ -685,7 +685,7 @@ function hesk_ticketsByUser()
 	$cls = '';
 	foreach ($tickets as $k => $d)
 	{
-		$cls = $cls ? '' : 'style="background:#EEEEE8;"';
+		$cls = $cls ? '' : 'style="background:#F0F8FF;"';
 
 	    ?>
 	      <tr <?php echo $cls; ?>>
@@ -816,7 +816,7 @@ function hesk_ticketsByMonth()
 	$cls = '';
 	foreach ($tickets as $k => $d)
 	{
-		$cls = $cls ? '' : 'style="background:#EEEEE8;"';
+		$cls = $cls ? '' : 'style="background:#F0F8FF;"';
 
 	    ?>
 	      <tr <?php echo $cls; ?>>
@@ -939,7 +939,7 @@ function hesk_ticketsByDay()
 	$cls = '';
 	foreach ($tickets as $k => $d)
 	{
-		$cls = $cls ? '' : 'style="background:#EEEEE8;"';
+		$cls = $cls ? '' : 'style="background:#F0F8FF;"';
 
 	    ?>
 	      <tr <?php echo $cls; ?>>
