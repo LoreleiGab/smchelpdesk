@@ -1669,13 +1669,11 @@ function hesk_printReplyForm() {
     ?>
 
     <div align="center">
-    <table class="white" style="min-width:600px;">
+    <table class="white" style="min-width:200px;">
     <tr>
     	<td colspan="2">
 	    &raquo; <?php echo $hesklang['ts']; ?>
 		<input type="text" name="time_worked" id="time_worked" size="10" value="<?php echo ( isset($_SESSION['time_worked']) ? hesk_getTime($_SESSION['time_worked']) : '00:00:00'); ?>" />
-		<input type="button" class="orangebuttonsec" onmouseover="hesk_btn(this,'orangebuttonsecover');" onmouseout="hesk_btn(this,'orangebuttonsec');" onclick="ss()" id="startb" value="<?php echo $hesklang['start']; ?>" />
-		<input type="button" class="orangebuttonsec" onmouseover="hesk_btn(this,'orangebuttonsecover');" onmouseout="hesk_btn(this,'orangebuttonsec');" onclick="r()" value="<?php echo $hesklang['reset']; ?>" />
         <br />&nbsp;
         </td>
     </tr>

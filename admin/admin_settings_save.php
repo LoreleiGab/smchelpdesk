@@ -165,7 +165,7 @@ if ($set['attempt_limit'] > 0)
 {
 	$set['attempt_limit']++;
 }
-$set['attempt_banmin']	= hesk_checkMinMax( intval( hesk_POST('s_attempt_banmin') ) , 5, 99999, 60);
+$set['attempt_banmin']	= hesk_checkMinMax( intval( hesk_POST('s_attempt_banmin') ) , 5, 99999, 6);
 $set['reset_pass'] = empty($_POST['s_reset_pass']) ? 0 : 1;
 $set['email_view_ticket'] = ($set['require_email'] == 0) ? 0 : (empty($_POST['s_email_view_ticket']) ? 0 : 1);
 $set['x_frame_opt'] = empty($_POST['s_x_frame_opt']) ? 0 : 1;

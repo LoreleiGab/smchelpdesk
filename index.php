@@ -1005,7 +1005,6 @@ hesk_handle_messages();
 
 		<b><?php echo $hesklang['we_have']; ?>:</b>
 	    <ul>
-	    <li><?php echo hesk_htmlspecialchars(hesk_getClientIP()).' '.$hesklang['recorded_ip']; ?></li>
 		<li><?php echo $hesklang['recorded_time']; ?></li>
 		</ul>
 

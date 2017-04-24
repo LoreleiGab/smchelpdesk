@@ -649,15 +649,6 @@ function hesk_show_kb_category($catid, $is_search = 0) {
 </table>
 
 	<?php
-    /* On the main KB page print out top and latest articles if needed */
-    if ($catid == 1)
-	{
-        /* Get list of top articles */
-        hesk_kbTopArticles($hesk_settings['kb_popart'], 0);
 
-        /* Get list of latest articles */
-        hesk_kbLatestArticles($hesk_settings['kb_latest'], 0);
-	}
-
-} // END hesk_show_kb_category()
+} 
 ?>
